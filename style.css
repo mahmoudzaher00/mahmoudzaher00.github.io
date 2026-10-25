@@ -84,3 +84,9 @@
 .button>span,.nav-contact>span,.text-link>span{display:inline-block;transition:translate .22s ease}
 @media(hover:hover) and (pointer:fine){.button:hover,.nav-contact:hover{transform:translateY(-2px);box-shadow:0 6px 20px #0002}.button:hover>span,.nav-contact:hover>span,.text-link:hover>span{translate:2px -1px}.app-card:hover{transform:translateY(-4px);border-color:#746043}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.motion-enabled .motion-item{opacity:1;translate:none;transition:none}.motion-enabled .hero-name,.motion-enabled .hero h1,.motion-enabled .hero .intro,.motion-enabled .hero .actions,.motion-enabled .hero .hero-foot,.motion-enabled .hero-art{animation:none}.button,.nav-contact,.button>span,.nav-contact>span,.text-link>span{transition:none}}
+
+/* Reserve a separate row for the illustration caption at every viewport. */
+.hero-art{height:700px}
+.hero-art .top-note{top:4px;left:0;right:0;text-align:center;font-size:11px;line-height:20px;color:#b8aa94}
+.hero-art .phone{top:64px}
+@media(max-width:650px){.hero-art{height:666px}}
