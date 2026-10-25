@@ -69,3 +69,7 @@
 .studio-navbar>.studio-nav-active{gap:5px;background:#e9d8b6;color:#38513c;border-radius:8px;padding:6px 8px}
 .studio-nav-active b{font-size:6px;font-weight:600}
 .studio-home-indicator{height:3px;width:53px;border-radius:3px;background:#35432e;margin:9px auto 0;opacity:.5;flex:none}
+
+/* Separate the introduction from About without restoring the text strip. */
+.about{border-top:1px solid #494132;padding-top:80px}
+@media(max-width:650px){.about{padding-top:52px}}
