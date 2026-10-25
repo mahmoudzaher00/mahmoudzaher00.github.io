@@ -276,3 +276,59 @@ document.querySelector('#copy-email').addEventListener('click', async () => {
   }
   setTimeout(() => { status.textContent = ''; }, 4500);
 });
+
+// Lightweight, progressive enhancement: the page remains visible without JS.
+(() => {
+  const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  if (!('IntersectionObserver' in window) || preference.matches) return;
+  const items = [...document.querySelectorAll([
+    '#about > *', '.section-head', '.experience-row', '.additional-experience',
+    '.case-heading', '.case-grid > section', '.sync-diagram', '.case-internal-note',
+    '.work-caption', '.app-card', '.more-work > summary', '.work-note',
+    '.expertise > div:first-child', '.skill-list > article',
+    '.education > *', '.contact > *'
+  ].join(','))];
+  let observer;
+  const showEverything = () => {
+    observer?.disconnect();
+    document.documentElement.classList.remove('motion-enabled');
+    items.forEach(item => {
+      item.classList.remove('motion-item', 'motion-visible');
+      item.style.removeProperty('--motion-delay');
+    });
+  };
+  try {
+    observer = new IntersectionObserver(entries => {
+      for (const entry of entries) {
+        // Replay softly when a section comes back into view, in either direction.
+        entry.target.classList.toggle('motion-visible', entry.isIntersecting);
+      }
+    }, { threshold: 0, rootMargin: '0px 0px -24px 0px' });
+    for (const item of items) {
+      const siblings = [...item.parentElement.children].filter(child => items.includes(child));
+      const delay = Math.min(siblings.indexOf(item), 2) * 65;
+      item.style.setProperty('--motion-delay', delay + 'ms');
+      item.classList.add('motion-item');
+      const rect = item.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 24 && rect.bottom > 0) item.classList.add('motion-visible');
+      observer.observe(item);
+    }
+    document.documentElement.classList.add('motion-enabled');
+    // Keyboard navigation always exposes the focused content immediately.
+    document.addEventListener('focusin', event => {
+      event.target.closest('.motion-item')?.classList.add('motion-visible');
+    });
+    preference.addEventListener('change', event => {
+      if (event.matches) showEverything();
+    });
+    window.addEventListener('pageshow', event => {
+      if (!event.persisted || !observer) return;
+      items.forEach(item => {
+        const rect = item.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom > 0) item.classList.add('motion-visible');
+      });
+    });
+  } catch {
+    showEverything();
+  }
+})();

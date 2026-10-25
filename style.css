@@ -73,3 +73,14 @@
 /* Separate the introduction from About without restoring the text strip. */
 .about{border-top:1px solid #494132;padding-top:80px}
 @media(max-width:650px){.about{padding-top:52px}}
+
+/* Small, compositor-friendly transitions; native scrolling stays unchanged. */
+.motion-enabled .motion-item{opacity:0;translate:0 20px;transition:opacity .62s cubic-bezier(.22,1,.36,1),translate .62s cubic-bezier(.22,1,.36,1),transform .24s ease,border-color .24s ease,box-shadow .24s ease;transition-delay:var(--motion-delay,0ms)}
+.motion-enabled .motion-item.motion-visible,.motion-enabled .motion-item:focus-within{opacity:1;translate:0 0}
+.motion-enabled .hero-name,.motion-enabled .hero h1,.motion-enabled .hero .intro,.motion-enabled .hero .actions,.motion-enabled .hero .hero-foot,.motion-enabled .hero-art{animation:hero-arrive .8s cubic-bezier(.22,1,.36,1) both}
+.motion-enabled .hero h1{animation-delay:.07s}.motion-enabled .hero .intro{animation-delay:.14s}.motion-enabled .hero .actions{animation-delay:.21s}.motion-enabled .hero .hero-foot{animation-delay:.28s}.motion-enabled .hero-art{animation-delay:.16s}
+@keyframes hero-arrive{from{opacity:0;translate:0 18px}to{opacity:1;translate:0 0}}
+.button,.nav-contact{transition:background-color .22s ease,box-shadow .22s ease,transform .22s ease}
+.button>span,.nav-contact>span,.text-link>span{display:inline-block;transition:translate .22s ease}
+@media(hover:hover) and (pointer:fine){.button:hover,.nav-contact:hover{transform:translateY(-2px);box-shadow:0 6px 20px #0002}.button:hover>span,.nav-contact:hover>span,.text-link:hover>span{translate:2px -1px}.app-card:hover{transform:translateY(-4px);border-color:#746043}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.motion-enabled .motion-item{opacity:1;translate:none;transition:none}.motion-enabled .hero-name,.motion-enabled .hero h1,.motion-enabled .hero .intro,.motion-enabled .hero .actions,.motion-enabled .hero .hero-foot,.motion-enabled .hero-art{animation:none}.button,.nav-contact,.button>span,.nav-contact>span,.text-link>span{transition:none}}
