@@ -104,3 +104,10 @@
  .studio-mini-front{background:linear-gradient(135deg,#fffdf5d9,#e5eee0ad)}
  .studio-navbar{background:linear-gradient(135deg,#fffefac9,#e7ebdca6)}
 }
+
+/* Keep the glass edge soft and give the mobile illustration footer room. */
+.studio-navbar{border-color:transparent;box-shadow:inset 0 1px 0 #ffffff26,0 5px 14px #2943331c}
+@media(max-width:650px){
+ .hero-art{height:694px}
+ .hero-art .art-tag{bottom:43px}
+}
