@@ -1,0 +1,216 @@
+{
+  "mahara": {
+    "category": "CONSUMER / CHILDREN’S EDUCATION",
+    "title": "MaharaTufl",
+    "description": "An educational mobile application that helps young children build early language skills through engaging interactive content.",
+    "points": [
+      "Improved application performance and stability."
+    ],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.maharattufl.maharatufl"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/eg/app/%D9%85%D9%87%D8%A7%D8%B1%D8%A9-%D8%B7%D9%81%D9%84/id6467820570"
+      }
+    ],
+    "role": "Improved application performance and stability.",
+    "logo": "assets/mahara-logo.png"
+  },
+  "khair": {
+    "category": "CONSUMER / LIFESTYLE",
+    "title": "KhairUmmah",
+    "description": "An Islamic application combining Quran memorization, prayer times, Azkar, Qibla, widgets, and location-based services.",
+    "points": [
+      "Migrated the app to Flutter and improved stability, performance, and maintainability."
+    ],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.beetleware.khair_oma"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/eg/app/%D8%AE%D9%8A%D9%80%D8%B1-%D8%A3%D9%85%D9%80%D8%A9/id6478954684"
+      }
+    ],
+    "role": "Migrated the app to Flutter and improved stability, performance, and maintainability.",
+    "logo": "assets/khair-logo.png"
+  },
+  "shipper": {
+    "category": "ENTERPRISE / LOGISTICS",
+    "title": "Shipper Operation",
+    "description": "A back-office mobile solution for assigning and managing delivery trips for logistics teams.",
+    "points": [],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.beetleware.shipperoperation"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/us/app/shipper-operation/id6471913778"
+      }
+    ],
+    "logo": "assets/shipper-logo.png"
+  },
+  "firstwash": {
+    "category": "CONSUMER / CAR CARE & E-COMMERCE",
+    "title": "First Wash",
+    "description": "A car care and e-commerce platform available on Android, iOS, and the web, for booking vehicle services, purchasing products, and managing online orders.",
+    "points": [
+      "Owned the application’s end-to-end delivery, from business requirements to implementation.",
+      "Built the Android, iOS, and web applications.",
+      "Defined requirements with the backend team and guided the backend work needed for the application’s business workflows.",
+      "Coordinated directly with UI/UX to turn business needs into the application experience."
+    ],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.first.wash"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/gb/app/fristwash/id1645783986"
+      },
+      {
+        "label": "Web app",
+        "url": "https://web.firstwashes.com/"
+      }
+    ],
+    "role": "Owned end-to-end delivery across Android, iOS, and web, translating business requirements into implementation and coordinating backend and UI/UX teams.",
+    "logo": "assets/firstwash-logo.png"
+  },
+  "tal3eeb": {
+    "title": "Tal3eeb",
+    "category": "SPORTS & COMMUNITY",
+    "description": "A sports community platform for discovering activities, organizing games, and connecting with other players.",
+    "points": [],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.beetleware.tal3eeb"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/eg/app/tal3eeb/id6760836315"
+      }
+    ],
+    "logo": "assets/tal3eeb-logo.png"
+  },
+  "athkar": {
+    "title": "Athkar & Doaa",
+    "category": "DAILY COMPANION",
+    "description": "Daily athkar, supplications, and prayer reminders that support consistent worship routines.",
+    "points": [
+      "Developed the application for daily athkar and supplications."
+    ],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=doaa.com.hijri_gregorian"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/eg/app/%D8%A3%D8%B0%D9%83%D8%A7%D8%B1-%D9%88%D8%A3%D8%AF%D8%B9%D9%8A%D8%A9/id6446449803"
+      }
+    ],
+    "logo": "assets/athkar-logo.png",
+    "role": "Developed the Flutter application for daily athkar and supplications."
+  },
+  "sba": {
+    "title": "SBA Academy",
+    "category": "MEDIA EDUCATION & TRAINING",
+    "description": "A media training platform offering structured professional programs for developing media talent.",
+    "points": [
+      "Built the Flutter application from scratch and worked on its ongoing development.",
+      "Reviewed code contributions to support code quality and maintainability."
+    ],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.spc.sba"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/eg/app/sba-academy/id6749261521"
+      }
+    ],
+    "logo": "assets/sba-logo.png",
+    "role": "Built the Flutter application from scratch, with responsibility for application development, code reviews, and code quality."
+  },
+  "gov01": {
+    "title": "01 GOV",
+    "category": "GOVERNMENT INNOVATION",
+    "description": "An Arabic platform encouraging innovation and collaboration within government entities.",
+    "points": [
+      "Took responsibility for application development and contributed to feature implementation, including social login.",
+      "Reviewed code contributions and worked with the team to maintain code quality and maintainability."
+    ],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.beetleware.govern01"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/eg/app/01-gov/id6504727922"
+      }
+    ],
+    "logo": "assets/gov01-logo.png",
+    "role": "Took responsibility for application development and code quality, implementing features including social login and reviewing code contributions within the team."
+  },
+  "exemore": {
+    "title": "ExeMore",
+    "category": "E-COMMERCE & ONLINE RETAIL",
+    "description": "An e-commerce platform helping businesses sell products across local and international markets.",
+    "points": [],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.exemore.exemore"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/eg/app/exemore/id1670860354"
+      }
+    ],
+    "logo": "assets/exemore-logo.png"
+  },
+  "waternote": {
+    "title": "Water Note",
+    "category": "HYDRATION & DAILY HABITS",
+    "description": "A mobile application for tracking daily water consumption and receiving personalized hydration reminders.",
+    "points": [],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.water_note.azom_project"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/ua/app/%D9%88%D9%88%D8%AA%D8%B1-%D9%86%D9%88%D8%AA-water-note/id1620772038"
+      }
+    ],
+    "logo": "assets/waternote-logo.png"
+  },
+  "waterdriver": {
+    "title": "Water Note Driver",
+    "category": "DELIVERY & ROUTE OPERATIONS",
+    "description": "A companion application helping drivers manage water delivery routes, tasks, and day-to-day operations.",
+    "points": [],
+    "links": [
+      {
+        "label": "Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.azom.water_note_driver"
+      },
+      {
+        "label": "App Store",
+        "url": "https://apps.apple.com/eg/app/water-note-driver/id1620913522"
+      }
+    ],
+    "logo": "assets/waterdriver-logo.png"
+  }
+}
