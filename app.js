@@ -4,7 +4,10 @@ const projects = {
     "title": "MaharaTufl",
     "description": "An educational mobile application that helps young children build early language skills through engaging interactive content.",
     "points": [
-      "Improved application performance and stability."
+      "Built the app from scratch as a cross-platform children’s learning app.",
+      "Implemented video caching for faster, smoother playback.",
+      "Integrated Apple Pay and Stripe payments, plus OTP and biometric authentication.",
+      "Integrated the TikTok Events SDK through Flutter MethodChannels on Android and iOS."
     ],
     "links": [
       {
@@ -16,7 +19,7 @@ const projects = {
         "url": "https://apps.apple.com/eg/app/%D9%85%D9%87%D8%A7%D8%B1%D8%A9-%D8%B7%D9%81%D9%84/id6467820570"
       }
     ],
-    "role": "Improved application performance and stability.",
+    "role": "Built from scratch: video caching, Apple Pay & Stripe payments, OTP/biometric authentication, and TikTok SDK integration via MethodChannels.",
     "logo": "assets/mahara-logo.png"
   },
   "khair": {
@@ -24,7 +27,8 @@ const projects = {
     "title": "KhairUmmah",
     "description": "An Islamic application combining Quran memorization, prayer times, Azkar, Qibla, widgets, and location-based services.",
     "points": [
-      "Migrated the app to Flutter and improved stability, performance, and maintainability."
+      "Migrated the app from its previous technology stack to Flutter, improving stability, performance, and maintainability.",
+      "Built Quran memorization, prayer times, Azkar, Qibla, home-screen widgets, and location-based services."
     ],
     "links": [
       {
@@ -36,14 +40,17 @@ const projects = {
         "url": "https://apps.apple.com/eg/app/%D8%AE%D9%8A%D9%80%D8%B1-%D8%A3%D9%85%D9%80%D8%A9/id6478954684"
       }
     ],
-    "role": "Migrated the app to Flutter and improved stability, performance, and maintainability.",
+    "role": "Migrated the app to Flutter; built Quran memorization, prayer times, Qibla, and home-screen widgets.",
     "logo": "assets/khair-logo.png"
   },
   "shipper": {
     "category": "ENTERPRISE / LOGISTICS",
     "title": "Shipper Operation",
     "description": "A back-office mobile solution for assigning and managing delivery trips for logistics teams.",
-    "points": [],
+    "points": [
+      "Built real-time driver tracking for logistics teams.",
+      "Implemented trip assignment and delivery-trip management."
+    ],
     "links": [
       {
         "label": "Google Play",
@@ -54,15 +61,16 @@ const projects = {
         "url": "https://apps.apple.com/us/app/shipper-operation/id6471913778"
       }
     ],
-    "logo": "assets/shipper-logo.png"
+    "logo": "assets/shipper-logo.png",
+    "role": "Built real-time driver tracking and trip management."
   },
   "firstwash": {
     "category": "CONSUMER / CAR CARE & E-COMMERCE",
     "title": "First Wash",
     "description": "A car care and e-commerce platform available on Android, iOS, and the web, for booking vehicle services, purchasing products, and managing online orders.",
     "points": [
+      "Built the Android, iOS, and web applications from scratch: service booking, e-commerce, payments, and Google Maps.",
       "Owned the application’s end-to-end delivery, from business requirements to implementation.",
-      "Built the Android, iOS, and web applications.",
       "Defined requirements with the backend team and guided the backend work needed for the application’s business workflows.",
       "Coordinated directly with UI/UX to turn business needs into the application experience."
     ],
@@ -80,14 +88,17 @@ const projects = {
         "url": "https://web.firstwashes.com/"
       }
     ],
-    "role": "Owned end-to-end delivery across Android, iOS, and web, translating business requirements into implementation and coordinating backend and UI/UX teams.",
+    "role": "Built from scratch: service booking, e-commerce, and payments with Google Maps across Android, iOS, and web, owning end-to-end delivery.",
     "logo": "assets/firstwash-logo.png"
   },
   "tal3eeb": {
     "title": "Tal3eeb",
-    "category": "SPORTS & COMMUNITY",
-    "description": "A sports community platform for discovering activities, organizing games, and connecting with other players.",
-    "points": [],
+    "category": "GAMIFIED LEARNING",
+    "description": "A gamified learning platform that turns skills and habits into challenges, missions, and rewards for individuals, families, and teams.",
+    "points": [
+      "Developed most of the app’s core challenge experiences: AR challenges, QR and GPS missions, timed races, and trivia.",
+      "Built the points, daily goals, and rewards system that keeps learners progressing."
+    ],
     "links": [
       {
         "label": "Google Play",
@@ -98,14 +109,15 @@ const projects = {
         "url": "https://apps.apple.com/eg/app/tal3eeb/id6760836315"
       }
     ],
-    "logo": "assets/tal3eeb-logo.png"
+    "logo": "assets/tal3eeb-logo.png",
+    "role": "Developed AR challenges, QR & GPS missions, timed races, trivia, and a points/rewards system."
   },
   "athkar": {
     "title": "Athkar & Doaa",
     "category": "DAILY COMPANION",
     "description": "Daily athkar, supplications, and prayer reminders that support consistent worship routines.",
     "points": [
-      "Developed the application for daily athkar and supplications."
+      "Built from scratch: daily athkar and duas with scheduled prayer reminders."
     ],
     "links": [
       {
@@ -118,15 +130,14 @@ const projects = {
       }
     ],
     "logo": "assets/athkar-logo.png",
-    "role": "Developed the Flutter application for daily athkar and supplications."
+    "role": "Built from scratch: daily athkar and duas with scheduled prayer reminders."
   },
   "sba": {
     "title": "SBA Academy",
     "category": "MEDIA EDUCATION & TRAINING",
     "description": "A media training platform offering structured professional programs for developing media talent.",
     "points": [
-      "Built the Flutter application from scratch and worked on its ongoing development.",
-      "Reviewed code contributions to support code quality and maintainability."
+      "Developed most features and enhancements of the Saudi Broadcasting Authority’s TVTC-accredited media training app."
     ],
     "links": [
       {
@@ -139,15 +150,16 @@ const projects = {
       }
     ],
     "logo": "assets/sba-logo.png",
-    "role": "Built the Flutter application from scratch, with responsibility for application development, code reviews, and code quality."
+    "role": "Developed most features and enhancements of the Saudi Broadcasting Authority’s TVTC-accredited media training app."
   },
   "gov01": {
     "title": "01 GOV",
     "category": "GOVERNMENT INNOVATION",
     "description": "An Arabic platform encouraging innovation and collaboration within government entities.",
     "points": [
-      "Took responsibility for application development and contributed to feature implementation, including social login.",
-      "Reviewed code contributions and worked with the team to maintain code quality and maintainability."
+      "Developed e-payment subscription packages and social login.",
+      "Built content features including the video library, practices and reports, custom lists, and search.",
+      "Implemented personalized notifications for new platform content."
     ],
     "links": [
       {
@@ -160,13 +172,16 @@ const projects = {
       }
     ],
     "logo": "assets/gov01-logo.png",
-    "role": "Took responsibility for application development and code quality, implementing features including social login and reviewing code contributions within the team."
+    "role": "Developed e-payment subscriptions, social login, video library, content search, and personalized notifications."
   },
   "exemore": {
     "title": "ExeMore",
     "category": "E-COMMERCE & ONLINE RETAIL",
     "description": "An e-commerce platform helping businesses sell products across local and international markets.",
-    "points": [],
+    "points": [
+      "Maintained and enhanced the app, improving existing features, stability, and performance.",
+      "Managed the legacy codebase and prepared production releases for Google Play and the App Store."
+    ],
     "links": [
       {
         "label": "Google Play",
@@ -177,13 +192,16 @@ const projects = {
         "url": "https://apps.apple.com/eg/app/exemore/id1670860354"
       }
     ],
-    "logo": "assets/exemore-logo.png"
+    "logo": "assets/exemore-logo.png",
+    "role": "Maintained and released the international e-commerce app with cross-border shipping."
   },
   "waternote": {
     "title": "Water Note",
     "category": "HYDRATION & DAILY HABITS",
     "description": "A mobile application for tracking daily water consumption and receiving personalized hydration reminders.",
-    "points": [],
+    "points": [
+      "Built from scratch: water-intake tracking and personalized hydration reminders."
+    ],
     "links": [
       {
         "label": "Google Play",
@@ -194,13 +212,16 @@ const projects = {
         "url": "https://apps.apple.com/ua/app/%D9%88%D9%88%D8%AA%D8%B1-%D9%86%D9%88%D8%AA-water-note/id1620772038"
       }
     ],
-    "logo": "assets/waternote-logo.png"
+    "logo": "assets/waternote-logo.png",
+    "role": "Built from scratch: water-intake tracking and personalized hydration reminders."
   },
   "waterdriver": {
     "title": "Water Note Driver",
     "category": "DELIVERY & ROUTE OPERATIONS",
     "description": "A companion application helping drivers manage water delivery routes, tasks, and day-to-day operations.",
-    "points": [],
+    "points": [
+      "Built from scratch: route and task management for delivery drivers."
+    ],
     "links": [
       {
         "label": "Google Play",
@@ -211,7 +232,8 @@ const projects = {
         "url": "https://apps.apple.com/eg/app/water-note-driver/id1620913522"
       }
     ],
-    "logo": "assets/waterdriver-logo.png"
+    "logo": "assets/waterdriver-logo.png",
+    "role": "Built from scratch: route and task management for delivery drivers."
   }
 };
 const dialog = document.querySelector('#project-dialog');
