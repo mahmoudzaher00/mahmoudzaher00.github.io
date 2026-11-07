@@ -199,7 +199,7 @@ const projects = {
     "category": "WATER DELIVERY & IoT MONITORING",
     "description": "An app for ordering drinking or regular water from the nearest source and monitoring the tank through the WN-1 smart device. 1K+ Google Play downloads.",
     "points": [
-      "Built water delivery ordering from the nearest water source.",
+      "Developed water delivery ordering from the nearest water source.",
       "Integrated the WN-1 device to show tank water level, weekly and monthly consumption, and water quality.",
       "Implemented alerts for low tank levels and leaks."
     ],
@@ -214,14 +214,14 @@ const projects = {
       }
     ],
     "logo": "assets/waternote-logo.png",
-    "role": "Built from scratch: water delivery ordering and IoT tank monitoring with water level, consumption, and leak alerts."
+    "role": "Developed water delivery ordering and IoT tank monitoring with water level, consumption, and leak alerts."
   },
   "waterdriver": {
     "title": "Water Note Driver",
     "category": "DELIVERY & ROUTE OPERATIONS",
     "description": "A companion application helping drivers manage water delivery routes, tasks, and day-to-day operations.",
     "points": [
-      "Built from scratch: route and task management for delivery drivers."
+      "Developed route and task management for delivery drivers."
     ],
     "links": [
       {
@@ -234,7 +234,7 @@ const projects = {
       }
     ],
     "logo": "assets/waterdriver-logo.png",
-    "role": "Built from scratch: route and task management for delivery drivers."
+    "role": "Developed route and task management for delivery drivers."
   }
 };
 const dialog = document.querySelector('#project-dialog');
