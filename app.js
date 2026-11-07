@@ -248,7 +248,7 @@ for (const button of document.querySelectorAll('[data-project]')) {
     document.querySelector('#dialog-description').textContent = project.description;
     document.querySelector('#dialog-points').replaceChildren(...project.points.map(text => {
       const li = document.createElement('li');
-      li.textContent = 'My role: ' + text;
+      li.textContent = text;
       return li;
     }));
     document.querySelector('#dialog-availability').textContent = project.availability || '';
