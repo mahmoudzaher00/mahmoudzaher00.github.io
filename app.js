@@ -4,7 +4,6 @@ const projects = {
     "title": "MaharaTufl",
     "description": "An educational mobile application that helps young children build early language skills through engaging interactive content.",
     "points": [
-      "Built the app from scratch as a cross-platform children’s learning app.",
       "Implemented video caching for faster, smoother playback.",
       "Integrated Apple Pay and Stripe payments, plus OTP and biometric authentication.",
       "Integrated the TikTok Events SDK through Flutter MethodChannels on Android and iOS."
@@ -19,7 +18,7 @@ const projects = {
         "url": "https://apps.apple.com/eg/app/%D9%85%D9%87%D8%A7%D8%B1%D8%A9-%D8%B7%D9%81%D9%84/id6467820570"
       }
     ],
-    "role": "Built from scratch: video caching, Apple Pay & Stripe payments, OTP/biometric authentication, and TikTok SDK integration via MethodChannels.",
+    "role": "Developed video caching, Apple Pay & Stripe payments, OTP/biometric authentication, and TikTok SDK integration via MethodChannels.",
     "logo": "assets/mahara-logo.png"
   },
   "khair": {
@@ -117,7 +116,7 @@ const projects = {
     "category": "DAILY COMPANION",
     "description": "Daily athkar, supplications, and prayer reminders that support consistent worship routines.",
     "points": [
-      "Built from scratch: daily athkar and duas with scheduled prayer reminders."
+      "Developed daily athkar and duas with scheduled prayer reminders."
     ],
     "links": [
       {
@@ -130,7 +129,7 @@ const projects = {
       }
     ],
     "logo": "assets/athkar-logo.png",
-    "role": "Built from scratch: daily athkar and duas with scheduled prayer reminders."
+    "role": "Developed daily athkar and duas with scheduled prayer reminders."
   },
   "sba": {
     "title": "SBA Academy",
@@ -197,10 +196,12 @@ const projects = {
   },
   "waternote": {
     "title": "Water Note",
-    "category": "HYDRATION & DAILY HABITS",
-    "description": "A mobile application for tracking daily water consumption and receiving personalized hydration reminders.",
+    "category": "WATER DELIVERY & IoT MONITORING",
+    "description": "An app for ordering drinking or regular water from the nearest source and monitoring the tank through the WN-1 smart device. 1K+ Google Play downloads.",
     "points": [
-      "Built from scratch: water-intake tracking and personalized hydration reminders."
+      "Built water delivery ordering from the nearest water source.",
+      "Integrated the WN-1 device to show tank water level, weekly and monthly consumption, and water quality.",
+      "Implemented alerts for low tank levels and leaks."
     ],
     "links": [
       {
@@ -213,7 +214,7 @@ const projects = {
       }
     ],
     "logo": "assets/waternote-logo.png",
-    "role": "Built from scratch: water-intake tracking and personalized hydration reminders."
+    "role": "Built from scratch: water delivery ordering and IoT tank monitoring with water level, consumption, and leak alerts."
   },
   "waterdriver": {
     "title": "Water Note Driver",
